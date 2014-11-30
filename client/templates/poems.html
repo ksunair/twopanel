@@ -1,0 +1,9 @@
+<template name="poems">
+    <div class="container-fluid col-md-4">
+        <ul class="list-group">
+        {{#each poems}}
+          {{> poemItem}}
+        {{/each}}
+        </ul>
+    </div>
+</template>

@@ -1,0 +1,10 @@
+<template name="mylayout">
+  {{> header}}
+  <div class="container-fluid">
+      <div class="row">
+          <div >{{> poems}}</div>
+          <div class="col-md-8 " id="main">{{> yield}}</div>
+      </div>
+  </div>
+    {{> footer}}
+</template>
